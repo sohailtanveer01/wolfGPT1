@@ -109,7 +109,7 @@ export const useUpdateStore = createPersistStore(
                           Locale.Settings.Update.FoundUpdate(`${remoteId}`);
                         // Show a notification for the new version using Tauri
                         window.__TAURI__?.notification.sendNotification({
-                          title: "wolfGPT",
+                          title: "WolfGPT",
                           body: updateMessage,
                           icon: `${ChatGptIcon.src}`,
                           sound: "Default",

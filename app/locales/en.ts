@@ -87,7 +87,7 @@ const en: LocaleType = {
     Copy: "Copy All",
     Download: "Download",
     MessageFromYou: "Message From You",
-    MessageFromChatGPT: "Message From ChatGPT",
+    MessageFromChatGPT: "Message From WolfGPT",
     Share: "Share to ShareGPT",
     Format: {
       Title: "Export Format",
@@ -443,8 +443,8 @@ const en: LocaleType = {
   },
   Exporter: {
     Description: {
-      Title: "Only messages after clearing the context will be displayed"
-    },  
+      Title: "Only messages after clearing the context will be displayed",
+    },
     Model: "Model",
     Messages: "Messages",
     Topic: "Topic",
